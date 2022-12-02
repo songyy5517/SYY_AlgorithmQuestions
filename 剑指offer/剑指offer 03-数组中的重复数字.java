@@ -18,3 +18,5 @@ class Solution {
         return -1;
     }
 }
+
+//注意：交换 num[i] 与 num[num[i]] 时，num[i]会发生改变，因此需要将 num[num[i]] 改成 num[temp] ，不然会陷入死循环。
